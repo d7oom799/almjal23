@@ -1,0 +1,44 @@
+[debug] [2025-06-30T19:42:48.737Z] ----------------------------------------------------------------------
+[debug] [2025-06-30T19:42:48.742Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\NBD-GOOGLE\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-06-30T19:42:48.742Z] CLI Version:   14.9.0
+[debug] [2025-06-30T19:42:48.742Z] Platform:      win32
+[debug] [2025-06-30T19:42:48.742Z] Node Version:  v22.17.0
+[debug] [2025-06-30T19:42:48.743Z] Time:          Mon Jun 30 2025 22:42:48 GMT+0300 (التوقيت العربي الرسمي)
+[debug] [2025-06-30T19:42:48.743Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-30T19:42:48.907Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-30T19:42:48.907Z] > authorizing via signed-in user (almjal655@gmail.com)
+[debug] [2025-06-30T19:42:48.907Z] [iam] checking project almjal-cd225 for permissions ["firebase.projects.get"]
+[debug] [2025-06-30T19:42:48.908Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:48.908Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:48.909Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225:testIamPermissions [none]
+[debug] [2025-06-30T19:42:48.909Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225:testIamPermissions x-goog-quota-user=projects/almjal-cd225
+[debug] [2025-06-30T19:42:48.909Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-30T19:42:50.338Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225:testIamPermissions 200
+[debug] [2025-06-30T19:42:50.338Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-30T19:42:50.339Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:50.339Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:50.339Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225 [none]
+[debug] [2025-06-30T19:42:51.457Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225 200
+[debug] [2025-06-30T19:42:51.457Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/almjal-cd225 {"projectNumber":"449504604724","projectId":"almjal-cd225","lifecycleState":"ACTIVE","name":"almjal","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-06-29T20:45:21.284768Z"}
+[info] 
+[info] === Serving from 'D:\projects C++\first project'...
+[info] 
+[debug] [2025-06-30T19:42:51.459Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:51.459Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:51.459Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/almjal-cd225/sites 
+[debug] [2025-06-30T19:42:53.272Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/almjal-cd225/sites 200
+[debug] [2025-06-30T19:42:53.272Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/almjal-cd225/sites {"sites":[{"name":"projects/almjal-cd225/sites/almjal-cd225","defaultUrl":"https://almjal-cd225.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-06-30T19:42:53.272Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:53.272Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:53.272Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225/webApps/-/config [none]
+[debug] [2025-06-30T19:42:54.090Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225/webApps/-/config 200
+[debug] [2025-06-30T19:42:54.090Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225/webApps/-/config {"projectId":"almjal-cd225","storageBucket":"almjal-cd225.firebasestorage.app","apiKey":"AIzaSyCzl7lKxz71UtXyFu_Yh6v5gK8beaANOCE","authDomain":"almjal-cd225.firebaseapp.com","messagingSenderId":"449504604724"}
+[debug] [2025-06-30T19:42:54.093Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:54.093Z] Checked if tokens are valid: true, expires at: 1751314281938
+[debug] [2025-06-30T19:42:54.093Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225 [none]
+[debug] [2025-06-30T19:42:54.523Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225 200
+[debug] [2025-06-30T19:42:54.523Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/almjal-cd225 {"projectId":"almjal-cd225","projectNumber":"449504604724","displayName":"almjal","name":"projects/almjal-cd225","resources":{"hostingSite":"almjal-cd225"},"state":"ACTIVE","etag":"1_a0d47837-46c1-4f25-af78-2eb6a8773704"}
+[info] i  hosting[almjal-cd225]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[almjal-cd225]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [30/Jun/2025:19:42:57 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [30/Jun/2025:19:42:57 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
